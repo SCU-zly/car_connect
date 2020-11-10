@@ -1,0 +1,7 @@
+Button btndata = (Button) findViewById(R.id.datatransfer);
+                btndata.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        setContentView(R.layout.activity_mapview);
+                    }
+                });
